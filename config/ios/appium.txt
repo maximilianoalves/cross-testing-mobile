@@ -1,0 +1,14 @@
+[caps]
+automationName = "XCUITest"
+deviceName = "iPhone"
+platformName = "iOS"
+platformVersion = "10.3"
+app = "./app/ios/App.ipa"
+autoAcceptAlerts = true
+bundleId = "br.com.package"
+udid = "UDID"
+xcodeOrgId = "xcode Org ID"
+xcodeSigningId = "xcode Signing Id"
+[appium_lib]
+wait = 20
+debug = false
