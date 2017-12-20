@@ -1,16 +1,16 @@
-require "appium_lib"
-require "cucumber"
-require "selenium-webdriver"
-require "allure-cucumber"
+require 'appium_lib'
+require 'cucumber'
+require 'selenium-webdriver'
+require 'allure-cucumber'
 
 $wait = Selenium::WebDriver::Wait.new(:timeout => 60)
 
 time  = Time.new
-time = time.strftime("%d-%m-%Y")
+time = time.strftime('%d-%m-%Y')
 $logger = Logger.new("./exec-logs/exec-log-#{time}.log")
 
 AllureCucumber.configure do |c|
-   c.output_dir = "./allure-results/"
+   c.output_dir = './allure-results/'
    c.clean_dir  = true
 end
 

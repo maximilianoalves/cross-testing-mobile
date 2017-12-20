@@ -40,7 +40,7 @@ def run_rake_task(name, platform, tags)
 end
 
 def set_reporting(platform, rerun)
-  reporting = "--format AllureCucumber::Formatter --out allure-results/#{platform}/"
+  reporting = '--format AllureCucumber::Formatter --out allure-results/#{platform}/'
 end
 
 def platform_check(args)
