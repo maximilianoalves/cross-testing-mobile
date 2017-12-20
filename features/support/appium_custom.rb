@@ -132,7 +132,7 @@ def get_text el, tipo_busca
 end
 
 def get_subelement_text_index element, el, tipo_busca, index
-  $logger.info('Está buscando texto em subelemento no indice ' + index + ' do elemento ' + el + ' usando o tipo de busca ' + tipo_busca)
+  $logger.info("Está buscando texto em subelemento no indice #{index} do elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
       return element.find_elements(:xpath, el).get(index).getText
@@ -144,7 +144,7 @@ def get_subelement_text_index element, el, tipo_busca, index
 end
 
 def get_text_index el, tipo_busca, index
-  $logger.info('Está buscando o texto no indice ' + index + ' do elemento ' + el + ' usando o tipo de busca ' + tipo_busca)
+  $logger.info("Está buscando o texto no indice #{index} do elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
       return $driver.find_elements(:xpath, el).get(index).getText
@@ -173,7 +173,7 @@ def fill_in el, tipo_busca, text
       element.clear
       element.send_keys text
   end
-  $logger.info('Preencheu o campo ' + el + ' usando o tipo de busca ' + tipo_busca)
+  $logger.info("Preencheu o campo #{el} usando o tipo de busca #{tipo_busca}")
 end
 
 def hide_keyboard
@@ -199,7 +199,7 @@ def click_xpath xpath
 end
 
 def id_exists? id
-  $driver.find_elements(:id, id).count>0
+  $driver.find_elements(:id, id).count > 0
 end
 
 def wait_for_id_to_exist id
@@ -254,7 +254,7 @@ def scrollTo el_start, el_start_location, el_end, el_end_location
     screen_y_end = el_end.location.y
   end
   Appium::TouchAction.new.swipe(start_x: screen_x_start, start_y: screen_y_start, delta_x: screen_x_end, delta_y: screen_y_end).perform
-  $logger.info('Executou o scroll para as coordenadas: screen_x_start #{screen_x_start} - screen_y_start #{screen_y_start} - screen_x_end #{screen_x_end} - screen_y_end #{screen_y_end}'  )
+  $logger.info( "Executou o scroll para as coordenadas: screen_x_start #{screen_x_start} - screen_y_start #{screen_y_start} - screen_x_end #{screen_x_end} - screen_y_end #{screen_y_end}" )
 end
 
 def id_text id
@@ -263,7 +263,7 @@ def id_text id
 end
 
 def text_exists? text
-  $driver.find_elements(:xpath, '//*[contains(@text,\'#{text}\')]').count>0
+  $driver.find_elements(:xpath, "//*[contains(@text,\'#{text}\')]").count > 0
 end
 
 def wait_for_text_to_exist text
@@ -272,7 +272,7 @@ end
 
 def click_text text
   wait_for_text_to_exist text
-  $driver.find_element(:xpath, '//*[contains(@text,\'#{text}\')]').click
+  $driver.find_element(:xpath, "//*[contains(@text,\'#{text}\')]").click
 end
 
 def is_android?

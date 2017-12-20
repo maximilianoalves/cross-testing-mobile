@@ -7,5 +7,5 @@ gem 'rake'
 gem 'appium_lib'
 gem 'appium_console'
 gem 'allure-cucumber'
-gem "yard-cucumber"
-gem "redcarpet"
+gem 'yard-cucumber'
+gem 'redcarpet'
