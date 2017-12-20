@@ -1,4 +1,4 @@
-def button_exists? button
+def button_exists?(button)
   $logger.info("Verificando a existência do botão #{el} usando o tipo de busca XPATH")
   return $driver.find_elements(:xpath, button).count>0
 end
@@ -8,7 +8,7 @@ def wait_for_button_to_exist button
   $wait.until {button_exists? button}
 end
 
-def click_button button
+def click_button(button)
   wait_for_button_to_exist button
   $driver.find_element(:xpath, '#{button}').click
   $logger.info("Clicou no botão #{el} usando o tipo de busca XPATH")
@@ -26,7 +26,7 @@ def wait_for el, tipo_busca
   $logger.info("Aguardou a exibição do elemento #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def wait_for_element_to_exist el, tipo_busca
+def wait_for_element_to_exist(el, tipo_busca)
   case tipo_busca
     when 'XPATH'
       $wait.until {element_exists? el, 'XPATH'}
@@ -38,7 +38,7 @@ def wait_for_element_to_exist el, tipo_busca
   $logger.info("Aguardou a existência do elemento #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def click el, tipo_busca
+def click(el, tipo_busca)
   case tipo_busca
     when 'XPATH'
       wait_for_element_to_exist el, 'XPATH'
@@ -53,7 +53,7 @@ def click el, tipo_busca
   $logger.info("Clicou no botão #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def click_index el, tipo_busca, index
+def click_index(el, tipo_busca, index)
   case tipo_busca
     when 'XPATH'
       wait_for_element_to_exist el, 'XPATH'
@@ -68,7 +68,7 @@ def click_index el, tipo_busca, index
   $logger.info("Clicou no indice #{index} do elemento #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def click_subelement_index element, el, tipo_busca, index
+def click_subelement_index(element, el, tipo_busca, index)
   case tipo_busca
     when 'XPATH'
       wait_for_element_to_exist el, 'XPATH'
@@ -83,7 +83,7 @@ def click_subelement_index element, el, tipo_busca, index
   $logger.info("Clicou em um subelemento no indice #{indedx} do elemento #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def element_exists? el, tipo_busca
+def element_exists?(el, tipo_busca)
   $logger.info("Verificando se existe o elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
@@ -95,7 +95,7 @@ def element_exists? el, tipo_busca
   end 
 end
 
-def elements el, tipo_busca
+def elements(el, tipo_busca)
   case tipo_busca
     when 'XPATH'
       return $driver.find_elements(:xpath, el)
@@ -107,7 +107,7 @@ def elements el, tipo_busca
   $logger.info("Buscou a lista de elementos #{el} usando o tipo de busca #{tipo_busca}")
 end
 
-def element_is_enabled? el, tipo_busca
+def element_is_enabled?(el, tipo_busca)
   $logger.info("Verificando se está habilitado o elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
@@ -119,7 +119,7 @@ def element_is_enabled? el, tipo_busca
   end 
 end
 
-def get_text el, tipo_busca
+def get_text(el, tipo_busca)
   $logger.info("Está buscando o texto do elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
@@ -131,7 +131,7 @@ def get_text el, tipo_busca
   end 
 end
 
-def get_subelement_text_index element, el, tipo_busca, index
+def get_subelement_text_index(element, el, tipo_busca, index)
   $logger.info("Está buscando texto em subelemento no indice #{index} do elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
@@ -143,7 +143,7 @@ def get_subelement_text_index element, el, tipo_busca, index
   end 
 end
 
-def get_text_index el, tipo_busca, index
+def get_text_index(el, tipo_busca, index)
   $logger.info("Está buscando o texto no indice #{index} do elemento #{el} usando o tipo de busca #{tipo_busca}")
   case tipo_busca
     when 'XPATH'
@@ -155,7 +155,7 @@ def get_text_index el, tipo_busca, index
   end 
 end
 
-def fill_in el, tipo_busca, text
+def fill_in(el, tipo_busca, text)
   case tipo_busca
     when 'XPATH'
       wait_for_xpath_to_exist el
@@ -185,37 +185,37 @@ def hide_keyboard
   $logger.info('Fechou o teclado virtual')
 end
 
-def xpath_exists? xpath
+def xpath_exists?(xpath)
 $driver.find_elements(:xpath, xpath).count>0
 end
 
-def wait_for_xpath_to_exist xpath
+def wait_for_xpath_to_exist(xpath)
   $wait.until { xpath_exists? xpath }
 end
 
-def click_xpath xpath
+def click_xpath(xpath)
   wait_for_xpath_to_exist xpath
   $driver.find_element(:xpath, xpath).click
 end
 
-def id_exists? id
+def id_exists?(id)
   $driver.find_elements(:id, id).count > 0
 end
 
-def wait_for_id_to_exist id
+def wait_for_id_to_exist(id)
   $wait.until { id_exists? id }
 end
 
-def click_id id
+def click_id(id)
   wait_for_id_to_exist id
   $driver.find_element(:id, id).click
 end
 
-def tap_screen screen_x, screen_y
+def tap_screen(screen_x, screen_y)
   Appium::TouchAction.new.tap(x: screen_x, y: screen_y).perform
 end
 
-def scrollTo el_start, el_start_location, el_end, el_end_location
+def scrollTo(el_start, el_start_location, el_end, el_end_location)
   if el_start_location == 'ID' && el_end_location == 'ID'
     #get element coordinates start
     el_start = $driver.find_element(:id, el_start)
@@ -257,20 +257,20 @@ def scrollTo el_start, el_start_location, el_end, el_end_location
   $logger.info( "Executou o scroll para as coordenadas: screen_x_start #{screen_x_start} - screen_y_start #{screen_y_start} - screen_x_end #{screen_x_end} - screen_y_end #{screen_y_end}" )
 end
 
-def id_text id
+def id_text(id)
   wait_for_id_to_exist id
   $driver.find_element(:id, id).text
 end
 
-def text_exists? text
+def text_exists?(text)
   $driver.find_elements(:xpath, "//*[contains(@text,\'#{text}\')]").count > 0
 end
 
-def wait_for_text_to_exist text
+def wait_for_text_to_exist(text)
     $wait.until {text_exists? text}
 end
 
-def click_text text
+def click_text(text)
   wait_for_text_to_exist text
   $driver.find_element(:xpath, "//*[contains(@text,\'#{text}\')]").click
 end

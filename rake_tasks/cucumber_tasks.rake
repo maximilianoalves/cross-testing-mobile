@@ -32,7 +32,7 @@ end
 def run_rake_task(name, platform, tags)
   begin
     Rake::Task[name].invoke(platform, tags)
-  rescue Exception => e
+  rescue StandardError => e
     puts e.to_s
     return false
   end
@@ -40,18 +40,18 @@ def run_rake_task(name, platform, tags)
 end
 
 def set_reporting(platform, rerun)
-  reporting = '--format AllureCucumber::Formatter --out allure-results/#{platform}/'
+  reporting = "--format AllureCucumber::Formatter --out allure-results/#{platform}/"
 end
 
 def platform_check(args)
   raise 'Por favor defina a plataforma (android|ios)' if args.nil? or args[:platform].nil?
 
   case args[:platform].downcase
-    when 'android'
-      ENV['PLATFORM_NAME'] = args[:platform]
-    when 'ios'
-      ENV['PLATFORM_NAME'] = args[:platform]
-    else
-      raise("Testes não suportados para esta plataforma #{args[:platform]}")
+  when 'android'
+    ENV['PLATFORM_NAME'] = args[:platform]
+  when 'ios'
+    ENV['PLATFORM_NAME'] = args[:platform]
+  else
+    raise("Testes não suportados para esta plataforma #{args[:platform]}")
   end
 end

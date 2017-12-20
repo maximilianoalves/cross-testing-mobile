@@ -10,8 +10,8 @@ time = time.strftime('%d-%m-%Y')
 $logger = Logger.new("./exec-logs/exec-log-#{time}.log")
 
 AllureCucumber.configure do |c|
-   c.output_dir = './allure-results/'
-   c.clean_dir  = true
+  c.output_dir = './allure-results/'
+  c.clean_dir  = true
 end
 
 def load_appium_configuration(platform)
@@ -25,16 +25,14 @@ else
 end
 
 case env
-  when 'android'
-    caps = load_appium_configuration(env)
-    caps[:appium_lib][:export_session] = true
-
-  when 'ios'
-    caps = load_appium_configuration(env)
-    caps[:appium_lib][:export_session] = true
-
-  else
-    raise("Plataforma não suportada #{ENV['PLATFORM_NAME']}")
+when 'android'
+  caps = load_appium_configuration(env)
+  caps[:appium_lib][:export_session] = true
+when 'ios'
+  caps = load_appium_configuration(env)
+  caps[:appium_lib][:export_session] = true
+else
+  raise("Plataforma não suportada #{ENV['PLATFORM_NAME']}")
 end
 
 Appium::Driver.new(caps)
