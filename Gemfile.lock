@@ -78,7 +78,7 @@ GEM
     tomlrb (1.2.6)
     uuid (2.3.8)
       macaddr (~> 1.0)
-    yard (0.8.0)
+    yard (0.9.11)
     yard-cucumber (2.1.7)
       cucumber (>= 0.7.5)
       gherkin (>= 2.2.9)
@@ -99,7 +99,7 @@ DEPENDENCIES
   redcarpet
   selenium-webdriver
   test-unit
-  yard (= 0.8)
+  yard ~> 0.9.11
   yard-cucumber
 
 BUNDLED WITH
