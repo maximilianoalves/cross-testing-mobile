@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def button_exists?(button)
   $logger.info("Verificando a existência do botão #{el} usando o tipo de busca XPATH")
   $driver.find_elements(:xpath, button).count > 0
@@ -11,7 +13,7 @@ end
 def click_button(button)
   wait_for_button_to_exist button
   $driver.find_element(:xpath, '#{button}').click
-  $logger.info("Clicou no botão #{el} usando o tipo de busca XPATH")
+  $logger.info("Clicou no botão #{button} usando o tipo de busca XPATH")
 end
 
 def wait_for(el)
@@ -28,12 +30,12 @@ end
 
 def wait_for_element_to_exist(el)
   case el['tipo_busca']
-    when 'XPATH'
-      $wait.until {element_exists? el['value'], 'XPATH'}
-    when 'ID'
-      $wait.until {element_exists? el['value'], 'ID'}
-    when 'CLASS'
-      $wait.until {element_exists? el['value'], 'CLASS'}
+  when 'XPATH'
+    $wait.until { element_exists? el['value'] }
+  when 'ID'
+    $wait.until { element_exists? el['value'] }
+  when 'CLASS'
+    $wait.until { element_exists? el['value'] }
   end
   $logger.info("Aguardou a existência do elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
 end
@@ -54,12 +56,12 @@ end
 def click_index(el, index)
   wait_for_element_exist(el)
   case el['tipo_busca']
-    when 'XPATH'
-      $driver.find_elements(:xpath, el['value'])[index].click
-    when 'ID'
-      $driver.find_elements(:id, el['value'])[index].click
-    when 'CLASS'
-      $driver.find_elements(:class, el['value'])[index].click
+  when 'XPATH'
+    $driver.find_elements(:xpath, el['value'])[index].click
+  when 'ID'
+    $driver.find_elements(:id, el['value'])[index].click
+  when 'CLASS'
+    $driver.find_elements(:class, el['value'])[index].click
   end
 
   $logger.info("Clicou no indice #{index} do elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
@@ -81,83 +83,83 @@ end
 def element_exists?(el)
   $logger.info("Verificando se existe o elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
   case el['tipo_busca']
-    when 'XPATH'
-      return $driver.find_elements(:xpath, el['value']).count > 0
-    when 'ID'
-      return $driver.find_elements(:id, el['value']).count > 0
-    when 'CLASS'
-      return $driver.find_elements(:class, el['value']).count > 0
+  when 'XPATH'
+    return $driver.find_elements(:xpath, el['value']).count > 0
+  when 'ID'
+    return $driver.find_elements(:id, el['value']).count > 0
+  when 'CLASS'
+    return $driver.find_elements(:class, el['value']).count > 0
   end
 end
 
 def elements(el)
   case el['tipo_busca']
-    when 'XPATH'
-      return $driver.find_elements(:xpath, el['value'])
-    when 'ID'
-      return $driver.find_elements(:id, el['value'])
-    when 'CLASS'
-      return $driver.find_elements(:class, el['value'])
+  when 'XPATH'
+    return $driver.find_elements(:xpath, el['value'])
+  when 'ID'
+    return $driver.find_elements(:id, el['value'])
+  when 'CLASS'
+    return $driver.find_elements(:class, el['value'])
   end
   $logger.info('Buscou a lista de elementos ' + el['value'] + ' usando o tipo de busca ' + el['tipo_busca'])
 end
 
 def element_is_enabled?(el)
-  $logger.info("Elemento habilitado #{['value']} usando o tipo de busca #{el['tipo_busca']}")
+  $logger.info("Elemento habilitado #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
   case el['tipo_busca']
-    when 'XPATH'
-      return $driver.find_elements(:xpath, el['value']).enabled
-    when 'ID'
-      return $driver.find_elements(:id, el['value']).enabled
-    when 'CLASS'
-      return $driver.find_elements(:class, el['value']).enabled
+  when 'XPATH'
+    return $driver.find_elements(:xpath, el['value']).enabled
+  when 'ID'
+    return $driver.find_elements(:id, el['value']).enabled
+  when 'CLASS'
+    return $driver.find_elements(:class, el['value']).enabled
   end
 end
 
 def get_text(el)
   $logger.info('Está buscando o texto do elemento ' + el['value'] + ' usando o tipo de busca ' + el['tipo_busca'])
   case el['tipo_busca']
-    when 'XPATH'
-      return $driver.find_element(:xpath, el['value']).text
-    when 'ID'
-      return $driver.find_element(:id, el['value']).text
-    when 'CLASS'
-      return $driver.find_element(:class, el['value']).text
+  when 'XPATH'
+    return $driver.find_element(:xpath, el['value']).text
+  when 'ID'
+    return $driver.find_element(:id, el['value']).text
+  when 'CLASS'
+    return $driver.find_element(:class, el['value']).text
   end
 end
 
 def get_subelement_text_index(element, el, index)
   $logger.info("Buscando texto em subelemento no indice #{index} do elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
   case el['tipo_busca']
-    when 'XPATH'
-      return element.find_elements(:xpath, el['value']).get(index).text
-    when 'ID'
-      return element.find_elements(:id, el['value']).get(index).text
-    when 'CLASS'
-      return element.find_elements(:class, el['value']).get(index).text
+  when 'XPATH'
+    return element.find_elements(:xpath, el['value']).get(index).text
+  when 'ID'
+    return element.find_elements(:id, el['value']).get(index).text
+  when 'CLASS'
+    return element.find_elements(:class, el['value']).get(index).text
   end
 end
 
 def get_text_index(el, index)
   $logger.info("Indice do texto #{index} do elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
   case el['tipo_busca']
-    when 'XPATH'
-      return $driver.find_elements(:xpath, el['value']).get(index).text
-    when 'ID'
-      return $driver.find_elements(:id, el['value']).get(index).text
-    when 'CLASS'
-      return $driver.find_elements(:class, el['value']).get(index).text
+  when 'XPATH'
+    return $driver.find_elements(:xpath, el['value']).get(index).text
+  when 'ID'
+    return $driver.find_elements(:id, el['value']).get(index).text
+  when 'CLASS'
+    return $driver.find_elements(:class, el['value']).get(index).text
   end
 end
 
 def fill_in(el, text)
   case el['tipo_busca']
-    when 'XPATH'
-      element = $driver.find_element(:xpath, el['value'])
-    when 'ID'
-      element = $driver.find_element(:id, el['value'])
-    when 'CLASS'
-      element = $driver.find_element(:class, el['value'])
+  when 'XPATH'
+    element = $driver.find_element(:xpath, el['value'])
+  when 'ID'
+    element = $driver.find_element(:id, el['value'])
+  when 'CLASS'
+    element = $driver.find_element(:class, el['value'])
   end
   element.clear
   element.send_keys text
@@ -165,9 +167,9 @@ def fill_in(el, text)
 end
 
 def hide_keyboard
-  if is_android?
+  if android?
     $driver.hide_keyboard
-  elsif is_ios?
+  elsif ios?
     $driver.hide_keyboard :pressKey
   end
   $logger.info('Fechou o teclado virtual')
@@ -203,7 +205,7 @@ def tap_screen(screen_x, screen_y)
   Appium::TouchAction.new.tap(x: screen_x, y: screen_y).perform
 end
 
-def scrollTo(el_start, el_start_location, el_end, el_end_location)
+def scroll_to(el_start, el_start_location, el_end, el_end_location)
   if el_start_location == 'ID' && el_end_location == 'ID'
     # get element coordinates start
     el_start = $driver.find_element(:id, el_start)
@@ -251,7 +253,7 @@ def id_text(id)
 end
 
 def text_exists?(text)
-  $driver.find_elements(:xpath, "//*[contains(@text,\'#{text}\')]").count > 0
+  $driver.find_elements(:xpath, "//*[contains(@text,\"#{text}\")]").count > 0
 end
 
 def wait_for_text_to_exist(text)
@@ -260,13 +262,13 @@ end
 
 def click_text(text)
   wait_for_text_to_exist text
-  $driver.find_element(:xpath, "//*[contains(@text,\'#{text}\')]").click
+  $driver.find_element(:xpath, "//*[contains(@text,'#{text}')]").click
 end
 
-def is_android?
+def android?
   $platform == 'android'
 end
 
-def is_ios?
+def ios?
   $platform == 'ios'
 end

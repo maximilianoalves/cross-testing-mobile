@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ###
 # Main Rakefile
 ###
@@ -11,13 +13,12 @@ task :single_run_acceptance, :platform, :tags do |_, args|
 
   begin
     Rake::Task[:stop_appium_server].invoke
-  rescue Exception => e
+  rescue StandardError => e
     puts "#{e.class}: #{e.message}"
   end
 
   raise 'Os testes do cucumber falharam' unless result
 end
-
 
 desc 'Executar os testes de regressão e reexecutar os testes que falharam'
 task :single_run_acceptance_with_retry, :platform, :tags do |_, args|
@@ -26,7 +27,7 @@ task :single_run_acceptance_with_retry, :platform, :tags do |_, args|
 
   begin
     Rake::Task[:stop_appium_server].invoke
-  rescue Exception => e
+  rescue StandardError => e
     puts "#{e.class}: #{e.message}"
   end
 

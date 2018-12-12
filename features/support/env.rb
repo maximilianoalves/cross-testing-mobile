@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'appium_lib'
 require 'cucumber'
 require 'selenium-webdriver'
 require 'allure-cucumber'
 
-$wait = Selenium::WebDriver::Wait.new(:timeout => 60)
+$wait = Selenium::WebDriver::Wait.new(timeout: 60)
 
 time  = Time.new
 time = time.strftime('%d-%m-%Y')
@@ -15,14 +17,11 @@ AllureCucumber.configure do |c|
 end
 
 def load_appium_configuration(platform)
-  Appium.load_appium_txt :file => File.expand_path("#{Dir.pwd}/config/#{platform}/appium.txt", __FILE__), verbose: true
+  dir = "#{Dir.pwd}/config/#{platform}/appium.txt"
+  Appium.load_appium_txt file: File.expand_path(dir, __FILE__), verbose: true
 end
 
-if ENV['PLATFORM_NAME'].nil?
-  raise 'Por favor defina a variavel de ambiente PLATFORM_NAME, como: export PLATFORM_NAME=android'
-else
-  env = ENV['PLATFORM_NAME'].downcase
-end
+env = ENV['PLATFORM_NAME'].downcase
 
 case env
 when 'android'

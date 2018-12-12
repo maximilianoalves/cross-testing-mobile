@@ -1,0 +1,69 @@
+Documentation:
+  Enabled: true
+
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - 'features/**/*.rb'
+  Exclude:
+    - 'step_definitions/**'
+    - 'screenshots/**/*'
+    - '*.feature'
+    - 'reports/**'
+
+  TargetRubyVersion: 2.3.0
+
+#Lint checks are defined here
+
+Lint:
+  Severity: error
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+
+Lint/ConditionPosition:
+  Enabled: true
+
+Lint/ElseLayout:
+  Enabled: true
+
+Lint/HandleExceptions:
+  Enabled: true
+
+Lint/Loop:
+  Enabled: true
+
+#Style checks are defined here
+
+Style/Encoding:
+  Enabled: true
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: true
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: true
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/GlobalVars:
+  AllowedVariables: [$driver, $wait, $logger, $platform]
+
+# Metrics like method length and complexity are defined here
+
+Metrics/LineLength:
+  Max: 200
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 10
+  CountComments: false

@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'yaml'
 require 'logger'
 
-def get_screen_mappings screen, package
+def get_screen_mappings(screen, package)
   $platform = ENV['PLATFORM_NAME'].downcase
   # require 'pry'; binding.pry
   dir = "#{Dir.pwd}/features/#{package}/elements/screen_mappings_#{screen}.yaml"

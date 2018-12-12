@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Before do
   $driver.start_driver
 end
