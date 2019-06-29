@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1561826945038" stop="1561826951156">
+  <name>Realizar calculos diversos</name>
+  <title>Realizar calculos diversos</title>
+  <test-cases>
+    <test-case start="1561826950079" stop="1561826951156" status="broken">
+      <name>Realizar calculos de adi&#xE7;&#xE3;o: 5 | 5</name>
+      <title>Realizar calculos de adi&#xE7;&#xE3;o: 5 | 5</title>
+      <failure>
+        <message/>
+        <stack-trace/>
+      </failure>
+      <steps>
+        <step start="1561826950080" stop="1561826950081" status="broken">
+          <name>que estou com o app aberto</name>
+          <title>que estou com o app aberto</title>
+          <attachments/>
+        </step>
+        <step start="1561826950081" stop="1561826950081" status="broken">
+          <name>aceito o tutorial</name>
+          <title>aceito o tutorial</title>
+          <attachments/>
+        </step>
+        <step start="1561826950081" stop="1561826950082" status="broken">
+          <name>eu adicionar o 5</name>
+          <title>eu adicionar o 5</title>
+          <attachments/>
+        </step>
+        <step start="1561826950082" stop="1561826950082" status="broken">
+          <name>adiciono o sinal de adi&#xE7;&#xE3;o</name>
+          <title>adiciono o sinal de adi&#xE7;&#xE3;o</title>
+          <attachments/>
+        </step>
+        <step start="1561826950082" stop="1561826950083" status="broken">
+          <name>adiciono o 5</name>
+          <title>adiciono o 5</title>
+          <attachments/>
+        </step>
+        <step start="1561826950083" stop="1561826950083" status="broken">
+          <name>devo ter o resultado &lt;resultado&gt;</name>
+          <title>devo ter o resultado &lt;resultado&gt;</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70172484515460"/>
+        <label name="host" value="Maximilianos-MacBook-Pro.local"/>
+        <label name="feature" value="Realizar calculos diversos"/>
+        <label name="story" value="Realizar calculos de adi&#xE7;&#xE3;o: 5 | 5"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70172484515460"/>
+    <label name="host" value="Maximilianos-MacBook-Pro.local"/>
+  </labels>
+</ns2:test-suite>
