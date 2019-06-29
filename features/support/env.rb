@@ -34,5 +34,5 @@ else
   raise("Plataforma não suportada #{ENV['PLATFORM_NAME']}")
 end
 
-Appium::Driver.new(caps)
+Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object

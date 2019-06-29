@@ -1,0 +1,115 @@
+# Logfile created on 2019-06-29 12:58:54 -0300 by logger.rb/56438
+I, [2019-06-29T12:58:54.288368 #49946]  INFO -- : Teste finalizado
+I, [2019-06-29T13:48:10.277779 #98443]  INFO -- : Teste finalizado
+I, [2019-06-29T13:49:11.154906 #98509]  INFO -- : Teste finalizado
+I, [2019-06-29T13:50:06.415279 #98571]  INFO -- : Teste finalizado
+I, [2019-06-29T14:04:04.889345 #98866]  INFO -- : Primeiro step
+I, [2019-06-29T14:04:04.893215 #98866]  INFO -- : Último step
+I, [2019-06-29T14:04:05.936162 #98866]  INFO -- : Teste finalizado
+I, [2019-06-29T14:04:50.083267 #98922]  INFO -- : Primeiro step
+I, [2019-06-29T14:04:50.086623 #98922]  INFO -- : Último step
+I, [2019-06-29T14:04:51.143239 #98922]  INFO -- : Teste finalizado
+I, [2019-06-29T14:23:30.541339 #99316]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:23:30.548497 #99316]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:23:31.675000 #99316]  INFO -- : Teste finalizado
+I, [2019-06-29T14:26:30.883554 #99488]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:26:30.886610 #99488]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:26:32.042312 #99488]  INFO -- : Teste finalizado
+I, [2019-06-29T14:28:09.988498 #99564]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:28:09.993506 #99564]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:28:11.102626 #99564]  INFO -- : Teste finalizado
+I, [2019-06-29T14:29:03.831620 #99607]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:29:03.846747 #99607]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:29:45.532539 #99607]  INFO -- : Teste finalizado
+I, [2019-06-29T14:30:00.406886 #99669]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:30:00.411090 #99669]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:30:01.550490 #99669]  INFO -- : Teste finalizado
+I, [2019-06-29T14:30:15.110332 #99713]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:30:47.245173 #99713]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:31:26.159825 #99713]  INFO -- : Teste finalizado
+I, [2019-06-29T14:32:19.054208 #99788]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:33:42.674911 #99788]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:33:51.284960 #99857]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:33:51.288437 #99857]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:33:51.288573 #99857]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:33:51.961325 #99857]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:33:55.099120 #99857]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:33:55.100669 #99857]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:34:17.291784 #99857]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:34:44.527708 #99857]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:35:07.571868 #99857]  INFO -- : Teste finalizado
+I, [2019-06-29T14:35:40.294556 #99925]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:36:17.206890 #99925]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:36:17.207217 #99925]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:36:17.280844 #99925]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:36:25.642084 #99925]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:37:40.918208 #99925]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:38:03.195506 #117]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:38:23.941234 #117]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:38:23.945606 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:38:24.007016 #117]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:38:37.800570 #117]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:38:52.939286 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:39:15.832965 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:39:24.333266 #117]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:39:39.365833 #117]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:39:47.461136 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:39:47.529968 #117]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:39:52.079750 #117]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:39:58.266330 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:39:58.347738 #117]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:40:04.630090 #117]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:40:08.648529 #117]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:40:08.736307 #117]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:40:11.964295 #117]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:40:17.081776 #117]  INFO -- : Teste finalizado
+I, [2019-06-29T14:41:06.166522 #240]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:41:06.170440 #240]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:41:06.170527 #240]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:41:06.340155 #240]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:41:09.906916 #240]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:41:09.907642 #240]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:13.504279 #240]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:14.535301 #240]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:14.536117 #240]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:41:15.088634 #240]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:41:15.355890 #240]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:41:15.356542 #240]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:15.912890 #240]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:16.180753 #240]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:41:16.181528 #240]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:41:16.880303 #240]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:41:17.099079 #240]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:41:17.099178 #240]  INFO -- : Está buscando o texto do elemento com.tricolorcat.calculator:id/display usando o tipo de busca ID
+I, [2019-06-29T14:41:18.844554 #240]  INFO -- : Teste finalizado
+I, [2019-06-29T14:43:19.119575 #356]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:43:19.123027 #356]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:43:19.123198 #356]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:43:19.784843 #356]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:43:22.935301 #356]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:43:23.967904 #356]  INFO -- : Teste finalizado
+I, [2019-06-29T14:49:22.350260 #11322]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:49:22.355734 #11322]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:49:22.355858 #11322]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:49:22.751580 #11322]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:49:25.900416 #11322]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:49:25.900852 #11322]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:28.568822 #11322]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:28.749110 #11322]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:28.749656 #11322]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:49:29.267166 #11322]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:49:29.456945 #11322]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/plus usando o tipo de busca ID
+I, [2019-06-29T14:49:29.457560 #11322]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:30.018759 #11322]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:30.248077 #11322]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/five usando o tipo de busca ID
+I, [2019-06-29T14:49:30.248756 #11322]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:49:30.902056 #11322]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:49:31.079426 #11322]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/equal usando o tipo de busca ID
+I, [2019-06-29T14:49:31.079601 #11322]  INFO -- : Está buscando o texto do elemento com.tricolorcat.calculator:id/display usando o tipo de busca ID
+I, [2019-06-29T14:49:32.699056 #11322]  INFO -- : Teste finalizado
+I, [2019-06-29T14:49:51.710399 #11369]  INFO -- : Iniciou o teste
+I, [2019-06-29T14:49:59.336768 #11369]  INFO -- : Clicou no botão OK, dentro da modal de bem-vindo
+I, [2019-06-29T14:49:59.336962 #11369]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:49:59.404341 #11369]  INFO -- : Aguardou a existência do elemento com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:50:02.566876 #11369]  INFO -- : Clicou no botão com.tricolorcat.calculator:id/btOK usando o tipo de busca ID
+I, [2019-06-29T14:57:12.508362 #11369]  INFO -- : Verificando se existe o elemento com.tricolorcat.calculator:id/five usando o tipo de busca ID

@@ -2,8 +2,8 @@ app = "./app/android/App.apk"
 [caps]
 platformName = "Android"
 deviceName = "Moto g 4 plus"
-appPackage = "br.com.package"
-appActivity = ".SplashActivity"
+appPackage = "com.tricolorcat.calculator"
+appActivity = ".MainActivity"
 autoGrantPermissions = true
 newCommandTimeout = 3600
 [appium_lib]

@@ -53,6 +53,19 @@ def click(el)
   $logger.info('Clicou no botão ' + el['value'] + ' usando o tipo de busca ' + el['tipo_busca'])
 end
 
+def wait_for_element_exist(el)
+  case el['tipo_busca']
+  when 'XPATH'
+    $wait.until {element_exists? el}
+  when 'ID'
+    $wait.until {element_exists? el}
+  when 'CLASS'
+    $wait.until {element_exists? el}
+  end
+  $logger.info("Aguardou a existência do elemento #{el['value']} usando o tipo de busca #{el['tipo_busca']}")
+end
+
+
 def click_index(el, index)
   wait_for_element_exist(el)
   case el['tipo_busca']
@@ -91,6 +104,11 @@ def element_exists?(el)
     return $driver.find_elements(:class, el['value']).count > 0
   end
 end
+
+def refresh_screen
+  $driver.refresh
+end
+
 
 def elements(el)
   case el['tipo_busca']
