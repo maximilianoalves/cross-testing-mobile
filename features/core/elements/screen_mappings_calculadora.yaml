@@ -1,0 +1,57 @@
+ios:
+  nome_do_elemento:
+    tipo_busca: 'XPATH'
+    value: '//xpath/do/elemento'
+android:
+  calculadora:
+    btn_ok_bem_vindo:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/btOK'
+    btn_one:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/one'
+    btn_two:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/two'
+    btn_three:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/three'
+    btn_four:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/four'
+    btn_five:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/five'
+    btn_six:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/six'
+    btn_seven:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/seven'
+    btn_eight:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/eight'
+    btn_nine:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/nine'
+    btn_zero:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/zero'
+    btn_plus:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/plus'
+    btn_minus:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/minus'
+    btn_divide:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/divide'
+    btn_times:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/times'
+    btn_equal:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/equal'
+    result:
+      tipo_busca: 'ID'
+      value: 'com.tricolorcat.calculator:id/display'

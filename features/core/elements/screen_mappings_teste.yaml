@@ -1,8 +1,0 @@
-ios:
-  nome_do_elemento:
-    tipo_de_busca: 'XPATH'
-    value: '//xpath/do/elemento'
-android:
-  nome_do_elemento:
-    tipo_de_busca: 'ID'
-    value: 'br.com.package:Id/nome_do_id'
