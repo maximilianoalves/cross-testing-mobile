@@ -1,6 +1,6 @@
 txt_view_result:
   type: 'ID'
-  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_result_tex'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text'
 field_first_number:
   type: 'ID'
   value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number'

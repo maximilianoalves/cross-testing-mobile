@@ -152,19 +152,19 @@ def fill_in(el, text)
   case el['type']
   when 'XPATH'
     element = $driver.find_element(:xpath, el['value'])
-    clean_text(el)
+    clean_text(element)
     element.send_keys text
   when 'ID'
     element = $driver.find_element(:id, el['value'])
-    clean_text(el)
+    clean_text(element)
     element.send_keys text
   when 'CLASS'
     element = $driver.find_element(:class, el['value'])
-    clean_text(el)
+    clean_text(element)
     element.send_keys text
   when 'ACCESS_ID'
     element = $driver.find_element(:accessibility_id, el['value'])
-    clean_text(el)
+    clean_text(element)
     element.send_keys text
   end
   $logger.info("Preencheu o campo #{el} usando o tipo de busca #{el['type']} com o valor #{text}")

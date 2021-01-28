@@ -644,3 +644,171 @@ I, [2021-01-28T18:37:25.387655 #47724]  INFO -- : Está buscando o texto do elem
 I, [2021-01-28T18:37:25.506363 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
 I, [2021-01-28T18:37:25.649517 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
 I, [2021-01-28T18:37:26.816067 #47724]  INFO -- : Test finish
+I, [2021-01-28T19:32:07.345679 #50356]  INFO -- : Init test
+I, [2021-01-28T19:32:07.346921 #50356]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:07.390011 #50356]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:08.482763 #50356]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:32:13.555893 #50356]  INFO -- : Init test
+I, [2021-01-28T19:32:13.556309 #50356]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:13.598880 #50356]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:14.659330 #50356]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:32:19.672178 #50356]  INFO -- : Init test
+I, [2021-01-28T19:32:19.675990 #50356]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:19.717202 #50356]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:20.800195 #50356]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:32:25.816146 #50356]  INFO -- : Init test
+I, [2021-01-28T19:32:25.816578 #50356]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:25.864651 #50356]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T19:32:26.975899 #50356]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:52:52.106317 #52535]  INFO -- : Init test
+I, [2021-01-28T19:52:52.107587 #52535]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_tex usando o tipo de busca ID
+I, [2021-01-28T19:53:12.807015 #52535]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_tex usando o tipo de busca ID
+I, [2021-01-28T19:53:33.313571 #52535]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_tex usando o tipo de busca ID
+I, [2021-01-28T19:53:54.374509 #52535]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:54:01.689848 #52535]  INFO -- : Init test
+I, [2021-01-28T19:54:01.690502 #52535]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_tex usando o tipo de busca ID
+I, [2021-01-28T19:54:06.561452 #52535]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:54:17.019620 #52640]  INFO -- : Init test
+I, [2021-01-28T19:54:17.020980 #52640]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:17.534312 #52640]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:17.932044 #52640]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:54:25.315054 #52640]  INFO -- : Init test
+I, [2021-01-28T19:54:25.315579 #52640]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:25.824258 #52640]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:26.247232 #52640]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:54:33.435688 #52640]  INFO -- : Init test
+I, [2021-01-28T19:54:33.436176 #52640]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:33.960029 #52640]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:34.360836 #52640]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:54:41.540525 #52640]  INFO -- : Init test
+I, [2021-01-28T19:54:41.541151 #52640]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:42.062386 #52640]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:54:42.448496 #52640]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:57:55.187331 #52950]  INFO -- : Init test
+I, [2021-01-28T19:57:55.189361 #52950]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:57:55.699585 #52950]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:57:56.051250 #52950]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:58:03.281808 #52950]  INFO -- : Init test
+I, [2021-01-28T19:58:03.283445 #52950]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:03.780325 #52950]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:04.175304 #52950]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:58:11.439103 #52950]  INFO -- : Init test
+I, [2021-01-28T19:58:11.441072 #52950]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:11.958771 #52950]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:12.301319 #52950]  INFO -- : Teste Finalizado
+I, [2021-01-28T19:58:19.547533 #52950]  INFO -- : Init test
+I, [2021-01-28T19:58:19.548118 #52950]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:20.071507 #52950]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T19:58:20.466755 #52950]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:02:39.836842 #53295]  INFO -- : Init test
+I, [2021-01-28T20:02:39.839329 #53295]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:40.398495 #53295]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:40.764294 #53295]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:02:47.882402 #53295]  INFO -- : Init test
+I, [2021-01-28T20:02:47.882914 #53295]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:48.419912 #53295]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:48.813190 #53295]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:02:56.248098 #53295]  INFO -- : Init test
+I, [2021-01-28T20:02:56.257318 #53295]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:57.225697 #53295]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:02:57.609507 #53295]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:03:04.841428 #53295]  INFO -- : Init test
+I, [2021-01-28T20:03:04.841931 #53295]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:03:05.361264 #53295]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:03:05.764751 #53295]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:04:42.435184 #53541]  INFO -- : Init test
+I, [2021-01-28T20:04:42.435718 #53541]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:43.416101 #53541]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:43.830185 #53541]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:04:51.024103 #53541]  INFO -- : Init test
+I, [2021-01-28T20:04:51.024901 #53541]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:51.539200 #53541]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:51.930589 #53541]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:04:59.105086 #53541]  INFO -- : Init test
+I, [2021-01-28T20:04:59.113911 #53541]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:59.610617 #53541]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:04:59.996718 #53541]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:05:07.136629 #53541]  INFO -- : Init test
+I, [2021-01-28T20:05:07.137041 #53541]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:05:07.646704 #53541]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:05:08.072168 #53541]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:06:23.443324 #53806]  INFO -- : Init test
+I, [2021-01-28T20:06:23.445750 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:23.947575 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:25.138067 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number"} usando o tipo de busca ID com o valor 1
+I, [2021-01-28T20:06:26.290397 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_second_number"} usando o tipo de busca ID com o valor 2
+I, [2021-01-28T20:06:26.290645 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sum usando o tipo de busca ID
+I, [2021-01-28T20:06:26.837208 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sum usando o tipo de busca ID
+I, [2021-01-28T20:06:26.988079 #53806]  INFO -- : Clicou no botão com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sum usando o tipo de busca ID
+I, [2021-01-28T20:06:26.988301 #53806]  INFO -- : Está buscando o texto do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:27.911993 #53806]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:06:35.199405 #53806]  INFO -- : Init test
+I, [2021-01-28T20:06:35.202090 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:35.692863 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:36.897185 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number"} usando o tipo de busca ID com o valor 5
+I, [2021-01-28T20:06:38.528243 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_second_number"} usando o tipo de busca ID com o valor 2
+I, [2021-01-28T20:06:38.528560 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sub usando o tipo de busca ID
+I, [2021-01-28T20:06:39.076958 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sub usando o tipo de busca ID
+I, [2021-01-28T20:06:39.225340 #53806]  INFO -- : Clicou no botão com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sub usando o tipo de busca ID
+I, [2021-01-28T20:06:39.225652 #53806]  INFO -- : Está buscando o texto do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:40.134829 #53806]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:06:47.300450 #53806]  INFO -- : Init test
+I, [2021-01-28T20:06:47.301551 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:47.825132 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:49.497264 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number"} usando o tipo de busca ID com o valor 10
+I, [2021-01-28T20:06:51.140486 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_second_number"} usando o tipo de busca ID com o valor 2
+I, [2021-01-28T20:06:51.140798 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_mult usando o tipo de busca ID
+I, [2021-01-28T20:06:51.698220 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_mult usando o tipo de busca ID
+I, [2021-01-28T20:06:51.837554 #53806]  INFO -- : Clicou no botão com.example.leonardomenezes.simplecalculatorandroid:id/android_button_mult usando o tipo de busca ID
+I, [2021-01-28T20:06:51.837787 #53806]  INFO -- : Está buscando o texto do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:06:52.801999 #53806]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:07:00.295294 #53806]  INFO -- : Init test
+I, [2021-01-28T20:07:00.296580 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:07:00.828368 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:07:02.024003 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number"} usando o tipo de busca ID com o valor 10
+I, [2021-01-28T20:07:03.653244 #53806]  INFO -- : Preencheu o campo {"type"=>"ID", "value"=>"com.example.leonardomenezes.simplecalculatorandroid:id/android_field_second_number"} usando o tipo de busca ID com o valor 2
+I, [2021-01-28T20:07:03.653422 #53806]  INFO -- : Verificando se existe o elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_div usando o tipo de busca ID
+I, [2021-01-28T20:07:04.202991 #53806]  INFO -- : Aguardou a existência do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_button_div usando o tipo de busca ID
+I, [2021-01-28T20:07:04.349892 #53806]  INFO -- : Clicou no botão com.example.leonardomenezes.simplecalculatorandroid:id/android_button_div usando o tipo de busca ID
+I, [2021-01-28T20:07:04.350164 #53806]  INFO -- : Está buscando o texto do elemento com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text usando o tipo de busca ID
+I, [2021-01-28T20:07:06.183396 #53806]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:10:35.484187 #54150]  INFO -- : Init test
+I, [2021-01-28T20:10:35.485472 #54150]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:35.531163 #54150]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:36.043884 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T20:10:36.684749 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T20:10:36.685006 #54150]  INFO -- : Verificando se existe o elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:36.768672 #54150]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:37.489837 #54150]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:37.490063 #54150]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:38.676775 #54150]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:10:43.986081 #54150]  INFO -- : Init test
+I, [2021-01-28T20:10:43.987797 #54150]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:44.032976 #54150]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:44.513186 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T20:10:45.146357 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T20:10:45.146576 #54150]  INFO -- : Verificando se existe o elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:45.220705 #54150]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:45.930792 #54150]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:45.930980 #54150]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:47.101722 #54150]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:10:52.479015 #54150]  INFO -- : Init test
+I, [2021-01-28T20:10:52.479554 #54150]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:52.521633 #54150]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:52.986946 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T20:10:53.624436 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T20:10:53.624742 #54150]  INFO -- : Verificando se existe o elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:53.713528 #54150]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:54.434862 #54150]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:54.435272 #54150]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:10:55.606222 #54150]  INFO -- : Teste Finalizado
+I, [2021-01-28T20:11:00.838998 #54150]  INFO -- : Init test
+I, [2021-01-28T20:11:00.839466 #54150]  INFO -- : Verificando se existe o elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:00.890804 #54150]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:01.345206 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T20:11:01.986592 #54150]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T20:11:01.986840 #54150]  INFO -- : Verificando se existe o elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:02.077355 #54150]  INFO -- : Aguardou a existência do elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:02.795324 #54150]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:02.795531 #54150]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T20:11:03.947303 #54150]  INFO -- : Teste Finalizado
