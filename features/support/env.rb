@@ -17,7 +17,7 @@ AllureCucumber.configure do |c|
 end
 
 def load_appium_configuration(platform)
-  dir = "#{Dir.pwd}/config/#{platform}/appium.txt"
+  dir = "#{Dir.pwd}/configs/#{platform}/appium.txt"
   Appium.load_appium_txt file: File.expand_path(dir, __FILE__), verbose: true
 end
 
