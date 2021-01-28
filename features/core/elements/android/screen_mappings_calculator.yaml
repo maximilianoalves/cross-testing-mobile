@@ -1,0 +1,21 @@
+txt_view_result:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_result_text'
+field_first_number:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_field_first_number'
+field_second_number:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_field_second_number'
+btn_sum:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sum'
+btn_subtract:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_button_sub'
+btn_multiply:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_button_mult'
+btn_divide:
+  type: 'ID'
+  value: 'com.example.leonardomenezes.simplecalculatorandroid:id/android_button_div'

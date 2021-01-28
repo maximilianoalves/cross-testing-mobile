@@ -1,0 +1,11 @@
+[caps]
+platformName = "Android"
+deviceName = "Galaxy J5 Prime"
+appPackage = "com.example.leonardomenezes.simplecalculatorandroid"
+appActivity = ".MainActivity"
+app = "./apps/android/app-android-calculator.apk"
+autoGrantPermissions = true
+newCommandTimeout = 3600
+[appium_lib]
+wait = 20
+debug = false

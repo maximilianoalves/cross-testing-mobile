@@ -1,0 +1,21 @@
+txt_view_result:
+  type: 'ACCESS_ID'
+  value: 'apple_result_text'
+field_first_number:
+  type: 'ACCESS_ID'
+  value: 'apple_first_input'
+field_second_number:
+  type: 'ACCESS_ID'
+  value: 'apple_second_input'
+btn_sum:
+  type: 'ACCESS_ID'
+  value: 'apple-sum-button'
+btn_subtract:
+  type: 'ACCESS_ID'
+  value: 'apple-subtract-button'
+btn_multiply:
+  type: 'ACCESS_ID'
+  value: 'apple-multiply-button'
+btn_divide:
+  type: 'ACCESS_ID'
+  value: 'apple-divide-button'

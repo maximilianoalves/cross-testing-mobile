@@ -1,0 +1,11 @@
+[caps]
+automationName = "XCUITest"
+deviceName = "Iphone 11 Pro Max"
+platformName = "iOS"
+platformVersion = "13.2"
+app = "./apps/ios/SimpleCalculator.app"
+autoAcceptAlerts = true
+udid = "14C10049-5022-41D1-B2ED-9B4F21C8932D"
+[appium_lib]
+wait = 20
+debug = false

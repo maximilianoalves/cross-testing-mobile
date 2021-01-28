@@ -18,29 +18,24 @@ task :run_acceptance, :platform, :tags do |_, args|
   platform = args[:platform]
 
   Cucumber::Rake::Task.new(:run) do |t|
-    puts "#{tags} --guess #{set_reporting(platform, true)}"
-    t.cucumber_opts = "#{tags} --guess #{set_reporting(platform, true)}"
+    t.cucumber_opts = "#{tags} --guess #{set_reporting(platform)}"
   end
 
   Rake::Task[:run].invoke
+end
+
+desc 'Executar os relatórios dos testes de aceitação'
+task :report, :platform do |_, args|
+  sh(" allure serve allure-results/#{args[:platform]}")
+
 end
 
 ###
 # Helpers
 ###
 
-def run_rake_task(name, platform, tags)
-  begin
-    Rake::Task[name].invoke(platform, tags)
-  rescue StandardError => e
-    puts e.to_s
-    return false
-  end
-  true
-end
-
-def set_reporting(platform, rerun)
-  #reporting = "--format AllureCucumber::Formatter --out allure-results/#{platform}/"
+def set_reporting(platform)
+  return "--format AllureCucumber::CucumberFormatter --out allure-results/#{platform}/"
 end
 
 def platform_check(args)
