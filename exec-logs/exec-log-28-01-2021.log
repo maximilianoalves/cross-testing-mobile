@@ -446,3 +446,201 @@ I, [2021-01-28T15:03:46.403486 #44828]  INFO -- : Aguardou a existência do elem
 I, [2021-01-28T15:03:47.230274 #44828]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
 I, [2021-01-28T15:03:47.230778 #44828]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
 I, [2021-01-28T15:03:48.317442 #44828]  INFO -- : Test finish
+I, [2021-01-28T18:30:37.007763 #46500]  INFO -- : Init test
+I, [2021-01-28T18:30:37.009080 #46500]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:37.527705 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:30:38.167342 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:30:38.167790 #46500]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:38.880621 #46500]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:38.880939 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:38.880989 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:39.937934 #46500]  INFO -- : Test finish
+I, [2021-01-28T18:30:44.917925 #46500]  INFO -- : Init test
+I, [2021-01-28T18:30:44.918362 #46500]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:45.381305 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:30:46.011286 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:30:46.011684 #46500]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:46.730942 #46500]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:46.731287 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:46.731335 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:47.756186 #46500]  INFO -- : Test finish
+I, [2021-01-28T18:30:52.966187 #46500]  INFO -- : Init test
+I, [2021-01-28T18:30:52.967113 #46500]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:53.482432 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:30:54.120381 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:30:54.120779 #46500]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:54.839262 #46500]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:54.839565 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:54.839611 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:30:55.862054 #46500]  INFO -- : Test finish
+I, [2021-01-28T18:31:01.122772 #46500]  INFO -- : Init test
+I, [2021-01-28T18:31:01.123480 #46500]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:31:01.611999 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:31:02.248583 #46500]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:31:02.248879 #46500]  INFO -- : Aguardou a existência do elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:31:02.981460 #46500]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:31:02.982019 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:31:02.982091 #46500]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:31:04.009890 #46500]  INFO -- : Test finish
+I, [2021-01-28T18:32:14.914524 #46771]  INFO -- : Init test
+I, [2021-01-28T18:32:14.915915 #46771]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:15.389512 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:32:16.030847 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:16.031116 #46771]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:16.738148 #46771]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:16.738483 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:16.738536 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:17.787918 #46771]  INFO -- : Test finish
+I, [2021-01-28T18:32:22.828274 #46771]  INFO -- : Init test
+I, [2021-01-28T18:32:22.828668 #46771]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:23.293417 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:32:23.956060 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:23.956448 #46771]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:24.684740 #46771]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:24.685021 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:24.685060 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:25.706736 #46771]  INFO -- : Test finish
+I, [2021-01-28T18:32:30.847917 #46771]  INFO -- : Init test
+I, [2021-01-28T18:32:30.848364 #46771]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:31.363462 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:32:32.002558 #46771]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:32.003565 #46771]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:32.726926 #46771]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:32.727247 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:32.727705 #46771]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:33.797621 #46771]  INFO -- : Test finish
+I, [2021-01-28T18:32:42.175021 #46970]  INFO -- : Init test
+I, [2021-01-28T18:32:42.175709 #46970]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:42.636748 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:32:43.278181 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:43.278583 #46970]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:43.999187 #46970]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:43.999540 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:44.000528 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:45.043705 #46970]  INFO -- : Test finish
+I, [2021-01-28T18:32:50.107793 #46970]  INFO -- : Init test
+I, [2021-01-28T18:32:50.108255 #46970]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:50.580266 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:32:51.213140 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:51.213410 #46970]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:51.920168 #46970]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:51.920499 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:51.920550 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:52.958122 #46970]  INFO -- : Test finish
+I, [2021-01-28T18:32:58.127123 #46970]  INFO -- : Init test
+I, [2021-01-28T18:32:58.127825 #46970]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:58.593287 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:32:59.233913 #46970]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:32:59.234189 #46970]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:59.942419 #46970]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:59.942758 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:32:59.942812 #46970]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:00.970146 #46970]  INFO -- : Test finish
+I, [2021-01-28T18:33:23.841659 #47146]  INFO -- : Init test
+I, [2021-01-28T18:33:23.842184 #47146]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:24.324508 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:33:24.961940 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:33:24.962238 #47146]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:25.673216 #47146]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:25.673563 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:25.673618 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:26.714239 #47146]  INFO -- : Test finish
+I, [2021-01-28T18:33:31.706708 #47146]  INFO -- : Init test
+I, [2021-01-28T18:33:31.707139 #47146]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:32.201526 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:33:32.841532 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:33:32.841833 #47146]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:33.547073 #47146]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:33.547447 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:33.547502 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:34.619603 #47146]  INFO -- : Test finish
+I, [2021-01-28T18:33:39.633357 #47146]  INFO -- : Init test
+I, [2021-01-28T18:33:39.633857 #47146]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:40.104776 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:33:40.754082 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:33:40.754477 #47146]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:41.483036 #47146]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:41.483388 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:41.483445 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:42.564924 #47146]  INFO -- : Test finish
+I, [2021-01-28T18:33:47.644641 #47146]  INFO -- : Init test
+I, [2021-01-28T18:33:47.649819 #47146]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:48.117305 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:33:48.758401 #47146]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:33:48.758802 #47146]  INFO -- : Aguardou a existência do elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:49.472415 #47146]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:49.472890 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:49.472959 #47146]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:33:50.520525 #47146]  INFO -- : Test finish
+I, [2021-01-28T18:35:52.767788 #47443]  INFO -- : Init test
+I, [2021-01-28T18:35:52.769044 #47443]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:35:53.266652 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:35:53.916791 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:35:53.917180 #47443]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:35:54.637674 #47443]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:35:54.638066 #47443]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:35:55.697390 #47443]  INFO -- : Test finish
+I, [2021-01-28T18:36:00.753015 #47443]  INFO -- : Init test
+I, [2021-01-28T18:36:00.753524 #47443]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:01.239639 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:36:01.867958 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:36:01.868344 #47443]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:02.588671 #47443]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:02.588997 #47443]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:03.611628 #47443]  INFO -- : Test finish
+I, [2021-01-28T18:36:08.599650 #47443]  INFO -- : Init test
+I, [2021-01-28T18:36:08.600112 #47443]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:09.059328 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:36:09.688241 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:36:09.688623 #47443]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:10.408562 #47443]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:10.409472 #47443]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:11.426869 #47443]  INFO -- : Test finish
+I, [2021-01-28T18:36:16.424400 #47443]  INFO -- : Init test
+I, [2021-01-28T18:36:16.425044 #47443]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:16.888834 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:36:17.534094 #47443]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:36:17.534485 #47443]  INFO -- : Aguardou a existência do elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:18.254963 #47443]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:18.255600 #47443]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:19.273749 #47443]  INFO -- : Test finish
+I, [2021-01-28T18:36:58.029454 #47724]  INFO -- : Init test
+I, [2021-01-28T18:36:58.030701 #47724]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:58.514423 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 1
+I, [2021-01-28T18:36:59.158925 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:36:59.159236 #47724]  INFO -- : Aguardou a existência do elemento apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:59.861692 #47724]  INFO -- : Clicou no botão apple-sum-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:59.862040 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:36:59.978601 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:00.117275 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:01.259596 #47724]  INFO -- : Test finish
+I, [2021-01-28T18:37:06.328322 #47724]  INFO -- : Init test
+I, [2021-01-28T18:37:06.331720 #47724]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:06.810325 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 5
+I, [2021-01-28T18:37:07.443252 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:37:07.443527 #47724]  INFO -- : Aguardou a existência do elemento apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:08.153337 #47724]  INFO -- : Clicou no botão apple-subtract-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:08.153664 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:08.268802 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:08.401408 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:09.542958 #47724]  INFO -- : Test finish
+I, [2021-01-28T18:37:14.754574 #47724]  INFO -- : Init test
+I, [2021-01-28T18:37:14.755568 #47724]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:15.232974 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:37:15.852021 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:37:15.853035 #47724]  INFO -- : Aguardou a existência do elemento apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:16.593313 #47724]  INFO -- : Clicou no botão apple-multiply-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:16.593634 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:16.710428 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:16.905008 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:18.062680 #47724]  INFO -- : Test finish
+I, [2021-01-28T18:37:23.543234 #47724]  INFO -- : Init test
+I, [2021-01-28T18:37:23.543663 #47724]  INFO -- : Aguardou a existência do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:24.015881 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_first_input"} usando o tipo de busca ACCESS_ID com o valor 10
+I, [2021-01-28T18:37:24.656795 #47724]  INFO -- : Preencheu o campo {"type"=>"ACCESS_ID", "value"=>"apple_second_input"} usando o tipo de busca ACCESS_ID com o valor 2
+I, [2021-01-28T18:37:24.657125 #47724]  INFO -- : Aguardou a existência do elemento apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:25.387354 #47724]  INFO -- : Clicou no botão apple-divide-button usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:25.387655 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:25.506363 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:25.649517 #47724]  INFO -- : Está buscando o texto do elemento apple_result_text usando o tipo de busca ACCESS_ID
+I, [2021-01-28T18:37:26.816067 #47724]  INFO -- : Test finish

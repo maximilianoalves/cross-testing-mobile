@@ -51,12 +51,13 @@ class CalculatorPage
       click_btn_multiply
     when 'divide'
       click_btn_divide
+    else
+      raise "click_operator: Operator not exists"
     end
   end
 
   def assert_equal(result)
-    puts "get_result: " + get_result.to_i
-    expect(result.to_i).to eq(get_result.to_i)
+    expect(result.to_s).to eq(get_result)
   end
 
 end

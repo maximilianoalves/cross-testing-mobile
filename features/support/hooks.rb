@@ -6,5 +6,5 @@ end
 
 After do
   $driver.driver_quit
-  $logger.info('Test finish')
+  $logger.info('Teste Finalizado')
 end
