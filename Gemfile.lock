@@ -108,7 +108,7 @@ GEM
     redcarpet (3.5.1)
     regexp_parser (2.0.3)
     require_all (3.0.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rspec-expectations (3.10.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
